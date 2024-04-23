@@ -1,0 +1,21 @@
+Services
+==================================
+sudo systemctl status docker
+sudo systemctl enable docker
+sudo systemctl start docker
+
+To Override settings
+
+more /etc/init/docker.override
+
+Environment Variables
+================================
+cd /etc/docker
+sudo vi daemon.json
+     {
+        "data-root": "/mnt/docker-data",
+        "storage-driver": "overlay2"
+      }
+
+
+
