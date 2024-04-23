@@ -1,0 +1,19 @@
+====================================
+Docker Installation Command
+====================================
+$ sudo apt-get update
+$ sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+$curl -fasSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
+$sudo apt-get install docker-ce
+$ docker -version
+=====================================
+To Verify
+=====================================
+sudo docker run hello-world
+
+====================================
+To Uninstall Docker
+====================================
+sudo apt-get purge docker-ce docker-ce-cli containerd.io
+sudo rm -rf /var/lib/docker
+
