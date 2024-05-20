@@ -1,0 +1,12 @@
+Nginx on Docker
+==================================
+sudo docker pull nginx
+sudo docker images
+sudo docker run -dt -p 80:80 nginx
+sudo docker ps
+sudo docker stop containerID or Name
+sudo docker start containerID or Name
+sudo docker container rm name
+sudo docker image rm name
+
+
